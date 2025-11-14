@@ -15,3 +15,6 @@ if (isPrime) {
 } else {
     console.log("No");
 }
+function EvenOdd(num){
+    return num % 2===0;
+}
