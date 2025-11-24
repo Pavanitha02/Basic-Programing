@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masai Style Program Cards</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .card {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 25px;
+    border: 1px solid #eee;
+    transition: all 0.4s ease;
+    text-align: left;
+  }
+
+  /* Hover effect for all cards */
+  .card:hover {
+    background-color: #e63946;
+    color: white;
+    transform: translateY(-6px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+  }
+
+  .card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+  }
+
+  .card:hover img {
+    transform: scale(1.1);
+  }
+
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+  }
+
+  .card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    transition: color 0.3s;
+  }
+
+  .card p strong {
+    color: #000;
+    transition: color 0.3s;
+  }
+
+  .card p i {
+    color: #e63946;
+    margin-right: 6px;
+    transition: color 0.3s;
+  }
+
+  .card:hover p,
+  .card:hover h3,
+  .card:hover p strong,
+  .card:hover p i {
+    color: white;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .btn {
+    flex: 1;
+    text-align: center;
+    border: 2px solid #e63946;
+    padding: 8px 12px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #e63946;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+  .card:hover .btn {
+    border-color: white;
+    color: white;
+  }
+
+  .card:hover .btn:hover {
+    background-color: white;
+    color: #e63946;
+  }
+
+</style>
+</head>
+<body>
+
+  <div class="card-container">
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/IIM_Sirmaur_Logo.png" alt="IIM Sirmaur">
+      <h3>EDGE: Essentials of Data Analytics, Gen AI & Execution</h3>
+      <p><i class="fa-solid fa-clock"></i>06 Months | Online</p>
+      <p><strong>Qualifier test - 12th Nov 2025</strong></p>
+      <div class="buttons">
+        <a href="#" class="btn">Learn more</a>
+        <a href="#" class="btn">Brochure</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/IIT_Patna_Logo.png" alt="IIT Patna">
+      <h3>Product Management and Agentic AI</h3>
+      <p><i class="fa-solid fa-clock"></i>06 Months | Online</p>
+      <p><strong>Qualifier test - 12th Nov 2025</strong></p>
+      <div class="buttons">
+        <a href="#" class="btn">Learn more</a>
+        <a href="#" class="btn">Brochure</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/IIT_Patna_Logo.png" alt="IIT Patna">
+      <h3>Certification in Data Analytics with Gen & Agentic AI</h3>
+      <p><i class="fa-solid fa-clock"></i>06 Months | Online</p>
+      <p><strong>Qualifier test - 8th Nov 2025</strong></p>
+      <div class="buttons">
+        <a href="#" class="btn">Learn more</a>
+        <a href="#" class="btn">Brochure</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/45/IIM_Trichy_Logo.png" alt="IIM Trichy">
+      <h3>Product Management in the Agentic AI Era</h3>
+      <p><i class="fa-solid fa-clock"></i>06 Months | Online</p>
+      <p><strong>Qualifier test - 12th Nov 2025</strong></p>
+      <div class="buttons">
+        <a href="#" class="btn">Learn more</a>
+        <a href="#" class="btn">Brochure</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/f/fd/IIT_Roorkee_Logo.png" alt="IIT Roorkee">
+      <h3>Future-Ready Product Management</h3>
+      <p><i class="fa-solid fa-clock"></i>06 Months | Online</p>
+      <p><strong>Qualifier test - 12th Nov 2025</strong></p>
+      <div class="buttons">
+        <a href="#" class="btn">Learn more</a>
+        <a href="#" class="btn">Brochure</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/NMIMS_Logo.png" alt="NMIMS Logo">
+      <h3>Online MBA</h3>
+      <p><i class="fa-solid fa-clock"></i>02 Years | Online</p>
+      <p><strong>Qualifier test - 12th Nov 2025</strong></p>
+      <div class="buttons">
+        <a href="#" class="btn">Learn more</a>
+        <a href="#" class="btn">Brochure</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

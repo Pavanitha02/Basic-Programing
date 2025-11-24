@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+</head>
+<style>
+    *{
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    #main-header{
+        background-color:#1a1a40;
+        color:white;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:15px 50px;
+
+    }
+    .nav-link{
+        color:#cfd9e7;
+        text-decoration: none;
+        margin:0 20px;
+        font-size:17px;
+        transition: 0.3s;
+    }
+    .nav-link:hover{
+        color:#ffcc00;
+        font-weight: bold;
+    }
+    #main-header,nav{
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    h1 span{
+        color:#00ffff;
+    }
+</style>
+<body>
+    <header id="main-header">
+        <h1>Tech<span>World</span></h1>
+        <nav>
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Services</a>
+        <a href="#" class="nav-link">Projects</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+        </nav>
+    </header>
+</body>
+</html>
